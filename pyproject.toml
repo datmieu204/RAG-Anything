@@ -21,9 +21,11 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
+    "google-generativeai>=0.8.5",
     "huggingface_hub",
     "lightrag-hku",
     "mineru[core]",
+    "ollama>=0.6.0",
     "tqdm",
 ]
 
